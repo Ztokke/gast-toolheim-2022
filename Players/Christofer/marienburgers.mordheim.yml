@@ -82,13 +82,12 @@ henchmen:
     armour: Shield
     rules: Expert Swordsmen
 
-  - group: Caps (1 Swordmen) [1XP]
+  - group: Caps (1 Swordmen) [3XP]
     stats: M4, WS4, BS3, S4, T4, W1, I4, A1, Ld7, Sv6
-    weapons: Hand weapon, Dagger
+    weapons: Sword, Dagger
     armour: Shield
     rules: Expert Swordsmen
 
 notes: |
-  - Rabbits foot: reroll 1 dice during battle or if not ooA in exploration phase, roll D6, on 6 foot is destroyed
 
 achievments: |
