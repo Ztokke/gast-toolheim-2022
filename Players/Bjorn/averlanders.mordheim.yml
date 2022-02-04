@@ -1,59 +1,61 @@
-warband: Averlanders (Averlanders)
+warband: Mountain guard (Averlanders)
 campaign: 18
 gc: 1
 shards: 0
 equipment:
-objective: Cookies
+objective: Richess and glory
 alignment: Lawful
 
 heros:
-  - hero: Burgold van Gemmingen (Captain) [26XP]
+  - hero: Horst Van Leeuwen (Captain) [26XP]
     stats: M4, WS4, BS4, S3, T3, W1, I4, A1, Ld8, Sv5
-    weapons: Sword, Dagger, Duelling Pistol, Lucky Charm
-    armour: Helmet, Light armour, Shield
+    weapons: Sword, Dagger, Duelling Pistol, Crossbow
+    armour: Helmet, Light armour, Shield, Lucky charm
     rules: Leader, Quickshot
+    injuries:
     skilllists: Strength, Shooting, Academic, Combat, Speed
 
-  - hero: Bernt Yonkers (Champion) [14XP]
-    stats: M4, WS4, BS3, S3, T3, W1, I3, A1, Ld8, Sv5
-    weapons: Axe, Dagger, Crossbow
-    armour: Light armour, Lucky charm
+  - hero: Weirich von Eschenbach (Sergant) [10XP]
+    stats: M4, WS4, BS2, S3, T3, W1, I3, A1, Ld7, Sv6
+    weapons: Sword
+    armour: Shield
     rules:
+    injuries: One eye
     skilllists: Shooting, Combat, Speed
 
-  - hero: Engbrecht De Cloet (Champion) [13XP]
-    stats: M4, WS4, BS4, S3, T3, W1, I3, A1, Ld7, Sv5
-    weapons: Axe, Hand weapon, Crossbow
-    armour: Light armour, Lucky charm
+  - hero: Ordulf (Bergjaeger) [7XP]
+    stats: M4, WS2, BS4, S3, T3, W1, I3, A1, Ld7, Sv-
+    weapons: Longbow, Club, Mace
+    armour:
     rules:
-    injuries:
-    # chestwound healed at the end of scenario 7
-    skilllists: Shooting, Combat, Speed
-
-  - hero: Geerlof Schneijder (Youngblood) [5XP]
-    stats: M4, WS2, BS2, S3, T3, W1, I3, A2, Ld6, Sv6
-    weapons: Dagger, Rabbit's foot
-    armour: Lucky charm
-    rules: Hardened, Strike to Injure
     injuries:
     skilllists: Shooting, Combat, Speed
 
-  - hero: Bertelmeeus Meijer (Youngblood) [3XP]
-    stats: M4, WS2, BS2, S3, T2, W1, I3, A1, Ld6, Sv5
-    weapons: Axe, Dagger, Crossbow
-    armour: Light armour, Lucky charm
-    rules: Step Aside
-    injuries: Chest wound
+  - hero: Emrich (Bergjaeger) [6XP]
+    stats: M4, WS2, BS4, S3, T3, W1, I3, A2, Ld8, Sv-
+    weapons: Longbow, Club, Mace
+    armour:
+    rules: Hates "Spikk"
+    injuries:
     skilllists: Shooting, Combat, Speed
 
-  - hero: Unknown Hero (Swordmen) [3XP]
-    stats: M4, WS4, BS3, S3, T3, W1, I3, A1, Ld7, Sv5
-    weapons: Sword, Sword
-    armour: Light armour, Helmet, Shield
-    rules: Expert Swordsman
+  - hero: Sifrit (Youngblood) [3XP]
+    stats: M4, WS3, BS2, S3, T3, W1, I3, A1, Ld6, Sv6
+    weapons: Club, Mace
+    armour: Shield
+    rules:
+    injuries:
+    skilllists: Shooting, Combat, Speed
+
+  - hero: Bernt (Mountain guard) [5XP]
+    stats: M4, WS4, BS3, S3, T3, W1, I4, A1, Ld7, Sv5
+    weapons: Double-handed sword
+    armour: Heavy armour, Helmet
+    rules: Combat master, Strongman
+    injuries:
     skilllists: Strength, Combat
 
-  - hero: Name of an Elf (Elf Ranger) [1XP]
+  - hero: Name of an Ogre (Ogre) [0XP]
     stats: M5, WS4, BS5, S3, T3, W1, I6, A1, Ld8, Sv-
     weapons: Elven Bow, Sword
     armour: Elf cloak
@@ -81,9 +83,9 @@ henchmen:
     armour: Shield
     rules: Expert Swordsmen
 
-  - group: Caps (1 Swordmen) [1XP]
+  - group: Caps (1 Swordmen) [3XP]
     stats: M4, WS4, BS3, S4, T4, W1, I4, A1, Ld7, Sv6
-    weapons: Hand weapon, Dagger
+    weapons: Sword, Dagger
     armour: Shield
     rules: Expert Swordsmen
 
