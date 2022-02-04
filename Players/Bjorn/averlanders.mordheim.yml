@@ -1,25 +1,24 @@
-warband: Van Leeuwen Trading Company (Marienburgers)
+warband: Averlanders (Averlanders)
 campaign: 3
-gc: 30
-shards: 1
-equipment: 1 Dagger, Jewelled Dagger, Jewelled Sword
-objective: Richess and glory
+gc: 1
+shards: 0
+equipment:
+objective: Cookies
 alignment: Lawful
 
 heros:
-  - hero: Horst Van Leeuwen (Captain) [26XP]
+  - hero: Burgold van Gemmingen (Captain) [26XP]
     stats: M4, WS4, BS4, S3, T3, W1, I4, A1, Ld8, Sv5
-    weapons: Sword, Dagger
+    weapons: Sword, Dagger, Duelling Pistol, Lucky Charm
     armour: Helmet, Light armour, Shield
-    rules: Leader, Strike to Injure
-    injuries:
+    rules: Leader, Quickshot
     skilllists: Strength, Shooting, Academic, Combat, Speed
 
   - hero: Bernt Yonkers (Champion) [14XP]
     stats: M4, WS4, BS3, S3, T3, W1, I3, A1, Ld8, Sv5
     weapons: Axe, Dagger, Crossbow
     armour: Light armour, Lucky charm
-    rules: Combat master
+    rules:
     skilllists: Shooting, Combat, Speed
 
   - hero: Engbrecht De Cloet (Champion) [13XP]
@@ -35,8 +34,8 @@ heros:
     stats: M4, WS2, BS2, S3, T3, W1, I3, A2, Ld6, Sv6
     weapons: Dagger, Rabbit's foot
     armour: Lucky charm
-    rules: Strike to Injure
-    injuries: Hardened
+    rules: Hardened, Strike to Injure
+    injuries:
     skilllists: Shooting, Combat, Speed
 
   - hero: Bertelmeeus Meijer (Youngblood) [3XP]
