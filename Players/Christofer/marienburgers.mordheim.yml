@@ -1,11 +1,10 @@
 warband: Van Leeuwen Trading Company (Marienburgers)
-campaign: 3
+campaign: 19
 gc: 30
 shards: 1
 equipment: 1 Dagger, Jewelled Dagger, Jewelled Sword
 objective: Richess and glory
 alignment: Lawful
-reputation: 19
 
 heros:
   - hero: Horst Van Leeuwen (Captain) [26XP]
