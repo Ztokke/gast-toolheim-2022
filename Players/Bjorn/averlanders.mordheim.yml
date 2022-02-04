@@ -55,39 +55,33 @@ heros:
     injuries:
     skilllists: Strength, Combat
 
-  - hero: Name of an Ogre (Ogre) [0XP]
-    stats: M5, WS4, BS5, S3, T3, W1, I6, A1, Ld8, Sv-
-    weapons: Elven Bow, Sword
-    armour: Elf cloak
-    rules: Seeker, Excellent sight
+  - hero: Tilke (Ogre bodyguard) [0XP]
+    stats: M6, WS3, BS2, S4, T4, W3, I3, A2, Ld7, Sv6
+    weapons: Sword, Sword
+    armour: Light armour
+    rules: Causes Fear
     skilllists: Shooting, Speed, Special
     hiredsword: true
     warbandaddition: 12
 
 henchmen:
-  - group: Longbows (2 Marksmen) [3XP]
+  - group: Blackwall (2 Mountainguard) [5XP]
     stats: M4, WS3, BS4, S3, T3, W1, I3, A1, Ld7, Sv-
-    weapons: Longbow, Dagger
+    weapons: Spear
     armour:
     rules:
 
-  - group: Bows (2 Marksmen) [3XP]
-    stats: M4, WS3, BS3, S3, T3, W1, I4, A1, Ld7, Sv-
-    weapons: Bow, Dagger
+  - group: The Denyers (3 Mountainguard) [3XP]
+    stats: M4, WS4, BS3, S3, T3, W1, I4, A1, Ld7, Sv-
+    weapons: Halberd
     armour:
     rules:
 
-  - group: Hats (2 Swordsmen) [3XP]
-    stats: M4, WS4, BS3, S4, T3, W1, I3, A1, Ld7, Sv6
-    weapons: Sword, Dagger
-    armour: Shield
-    rules: Expert Swordsmen
-
-  - group: Caps (1 Swordmen) [3XP]
-    stats: M4, WS4, BS3, S4, T4, W1, I4, A1, Ld7, Sv6
-    weapons: Sword, Dagger
-    armour: Shield
-    rules: Expert Swordsmen
+  - group: Yellow coats (1 Halfling scout) [1XP]
+    stats: M4, WS2, BS4, S2, T2, W1, I4, A1, Ld8, Sv-
+    weapons: Dagger, Bow
+    armour:
+    rules:
 
 notes: |
 
