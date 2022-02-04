@@ -1,0 +1,93 @@
+warband: Van Leeuwen Trading Company (Marienburgers)
+campaign: 3
+gc: 30
+shards: 1
+equipment: 1 Dagger, Jewelled Dagger, Jewelled Sword
+objective: Richess and glory
+alignment: Lawful
+
+heros:
+  - hero: Horst Van Leeuwen (Captain) [26XP]
+    stats: M4, WS4, BS4, S3, T3, W1, I4, A1, Ld8, Sv5
+    weapons: Sword, Dagger
+    armour: Helmet, Light armour, Shield
+    rules: Leader, Strike to Injure
+    skilllists: Strength, Shooting, Academic, Combat, Speed
+    warbandaddition: 12
+
+  - hero: Bernt Yonkers (Champion) [14XP]
+    stats: M4, WS4, BS3, S3, T3, W1, I3, A1, Ld8, Sv5
+    weapons: Axe, Dagger, Crossbow
+    armour: Light armour, Lucky charm
+    rules: Moneymaker
+    skilllists: Shooting, Combat, Speed
+
+  - hero: Engbrecht De Cloet (Champion) [13XP]
+    stats: M4, WS4, BS4, S3, T3, W1, I3, A1, Ld7, Sv5
+    weapons: Axe, Hand weapon, Crossbow
+    armour: Light armour, Lucky charm
+    rules:
+    injuries:
+    # chestwound healed at the end of scenario 7
+    skilllists: Shooting, Combat, Speed
+
+  - hero: Geerlof Schneijder (Youngblood) [5XP]
+    stats: M4, WS2, BS2, S3, T3, W1, I3, A2, Ld6, Sv6
+    weapons: Dagger, Rabbit's foot
+    armour: Lucky charm
+    rules: Hardened, Strike to Injure
+    injuries:
+    skilllists: Shooting, Combat, Speed
+
+  - hero: Bertelmeeus Meijer (Youngblood) [3XP]
+    stats: M4, WS2, BS2, S3, T2, W1, I3, A1, Ld6, Sv5
+    weapons: Axe, Dagger, Crossbow
+    armour: Light armour, Lucky charm
+    rules: Step Aside
+    injuries: Chest wound
+    skilllists: Shooting, Combat, Speed
+
+  - hero: Unknown Hero (Swordmen) [3XP]
+    stats: M4, WS4, BS3, S3, T3, W1, I3, A1, Ld7, Sv5
+    weapons: Sword, Sword
+    armour: Light armour, Helmet, Shield
+    rules: Expert Swordsman
+    skilllists: Strength, Combat
+
+  - hero: Name of an Elf (Elf Ranger) [1XP]
+    stats: M5, WS4, BS5, S3, T3, W1, I6, A1, Ld8, Sv-
+    weapons: Elven Bow, Sword
+    armour: Elf cloak
+    rules: Seeker, Excellent sight
+    skilllists: Shooting, Speed, Special
+    hiredsword: true
+
+henchmen:
+  - group: Longbows (2 Marksmen) [3XP]
+    stats: M4, WS3, BS4, S3, T3, W1, I3, A1, Ld7, Sv-
+    weapons: Longbow, Dagger
+    armour:
+    rules:
+
+  - group: Bows (2 Marksmen) [3XP]
+    stats: M4, WS3, BS3, S3, T3, W1, I4, A1, Ld7, Sv-
+    weapons: Bow, Dagger
+    armour:
+    rules:
+
+  - group: Hats (2 Swordsmen) [3XP]
+    stats: M4, WS4, BS3, S4, T3, W1, I3, A1, Ld7, Sv6
+    weapons: Sword, Dagger
+    armour: Shield
+    rules: Expert Swordsmen
+
+  - group: Caps (1 Swordmen) [1XP]
+    stats: M4, WS4, BS3, S4, T4, W1, I4, A1, Ld7, Sv6
+    weapons: Hand weapon, Dagger
+    armour: Shield
+    rules: Expert Swordsmen
+
+notes: |
+  - Rabbits foot: reroll 1 dice during battle or if not ooA in exploration phase, roll D6, on 6 foot is destroyed
+
+achievments: |
