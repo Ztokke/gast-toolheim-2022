@@ -1,20 +1,19 @@
-warband: The Revolting Dwarfs! (Dwarf Rangers)
+warband: The Leeuwen Trading Company
 active: true
 campaign: 50
 objective: The Lure of Fortune
-alignment: Lawful/Neutral
+alignment: Lawful
 achievments: |
   Land Train
-  Silk Trader
 
 gc: 78
 shards: 0
 equipment:
 # Choosen Rune: Rune of Striding (+1 Movement), Replacement: 1GC
 
-# Max 12 units
-# Racial maximums (Dwarfs):
-# M3, WS7, BS6, S4, T5, W3, I5, A4, Ld10
+# Max 15 units
+# Racial maximums (Humans):
+# M7, WS7, BS6, S4, T5, W3, I5, A4, Ld10
 heros:
   - hero: Ragnar (Runesmith) [90XP]
     stats: M3, WS5, BS4, S3, T4, W1, I3, A1, Ld10, Sv-
